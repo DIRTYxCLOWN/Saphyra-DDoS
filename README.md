@@ -60,7 +60,8 @@ def buildblock(size):
 		out_str += chr(a)
 	return(out_str)
 def usage():
-	print '---------------------------------------------------'
+
+	print ('---------------------------------------------------')
 	print 'USAGE: python httpdoser.py <url>'
 	print 'httpdoser website : DDoS Attack'
 	print "\a"
